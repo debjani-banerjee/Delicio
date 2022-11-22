@@ -6,7 +6,7 @@ export default function Product() {
   const [size, setSize] = useState(0);
   const product = {
     id: 1,
-    img: "/img/pizza.png",
+    img: "/img/pizza2.png",
     name: "Dalgona",
     price: [119, 259, 559],
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, sequi!",

@@ -5,9 +5,9 @@ import styles from "../styles/ProductCard.module.css";
 export default function ProductCard() {
   return (
     <div className={styles.container}>
-      <Image src="/img/pizza.png" alt="" width="200" height="200" />
+      <Image src="/img/idli.png" alt="" width="200" height="200" />
       <h1 className={styles.title}>AIYO IDLI-DOSA</h1>
-      <span className={styles.price}>$12.50</span>
+      <span className={styles.price}>₹75-500</span>
       <p className={styles.desc}>DEMBJANI AMNANYA AMGAL BAMGAL</p>
     </div>
   )
