@@ -17,6 +17,8 @@
 }
 
 .imgContainer{
+  width: 80%;
+  height: 80%;
     position: relative;
 }
 .price{
@@ -101,7 +103,7 @@
       margin-top: 20px;
     }
   
-    .imgContainer {
+    .imgContainer{
       width: 40vw;
       height: 40vw;
     }
