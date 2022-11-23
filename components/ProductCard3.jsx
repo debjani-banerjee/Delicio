@@ -8,7 +8,7 @@ export default function ProductCard() {
       <Image src="/img/tandoor.png" alt="" width="200" height="200" />
       <h1 className={styles.title}>TANDOOR NIGHTS</h1>
       <span className={styles.price}>₹150-500</span>
-      <p className={styles.desc}>DEMBJANI AMNANYA AMGAL BAMGAL</p>
+      <p className={styles.desc}>WHO SAID NONE? YOU HAVE NUN</p>
     </div>
   )
 }

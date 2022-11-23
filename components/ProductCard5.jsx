@@ -8,7 +8,7 @@ export default function ProductCard() {
       <Image src="/img/momo.png" alt="" width="200" height="200" />
       <h1 className={styles.title}>MOMOMIA</h1>
       <span className={styles.price}>₹50-500</span>
-      <p className={styles.desc}>DEMBJANI AMNANYA AMGAL BAMGAL</p>
+      <p className={styles.desc}>ENJOY LIFE'S LITTLE MOMO-MENTS</p>
     </div>
   )
 }

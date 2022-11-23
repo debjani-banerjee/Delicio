@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from "../styles/Navbar.module.css";
 import Image from "next/image";
+import Link from "next/link";
+import Login from '../pages/login';
 
 const Navbar = () => {
     return (
@@ -20,6 +22,7 @@ const Navbar = () => {
                     <li className={styles.listItem}>Products</li>
                     <li className={styles.listItem}>Menu</li>
                     <li className={styles.listItem}>Contact</li>
+                    <Link href="/login" passHref><li className={styles.listItem}>Login</li></Link>
                 </ul>
             </div>
             <div className={styles.item}>

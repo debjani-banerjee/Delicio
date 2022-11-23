@@ -8,7 +8,7 @@ export default function ProductCard() {
       <Image src="/img/biryani.png" alt="" width="200" height="200" />
       <h1 className={styles.title}>BEER-YANI</h1>
       <span className={styles.price}>₹200-500</span>
-      <p className={styles.desc}>DEMBJANI AMNANYA AMGAL BAMGAL</p>
+      <p className={styles.desc}>ADD DUM TO YOUR BIRYANI</p>
     </div>
   )
 }

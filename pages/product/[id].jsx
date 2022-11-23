@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import Image from "next/image";
 import styles from "../../styles/Product.module.css";
 
+
 export default function Product() {
   const [size, setSize] = useState(0);
   const product = {
     id: 1,
     img: "/img/pizza2.png",
-    name: "Dalgona",
+    name: "PEPPERONI PARTY",
     price: [119, 259, 559],
-    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, sequi!",
+    desc: "Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ Chicken, Peri-Peri Chicken, Grilled Chicken Rashers!",
   };
 
   return (

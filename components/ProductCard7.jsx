@@ -8,7 +8,7 @@ export default function ProductCard() {
       <Image src="/img/idli.png" alt="" width="200" height="200" />
       <h1 className={styles.title}>AIYO IDLI-DOSA</h1>
       <span className={styles.price}>₹75-500</span>
-      <p className={styles.desc}>DEMBJANI AMNANYA AMGAL BAMGAL</p>
+      <p className={styles.desc}>FROM SOUTH TO YOUR MOUTH</p>
     </div>
   )
 }

@@ -9,7 +9,7 @@ export default function ProductCard() {
       <Image src="/img/rice.png" alt="" width="200" height="200" />
       <h1 className={styles.title}>CHAWAL</h1>
       <span className={styles.price}>₹100-1000</span>
-      <p className={styles.desc}>DEMBJANI AMNANYA AMGAL BAMGAL</p>
+      <p className={styles.desc}>MAKE IT NICE, MAKE IT WITH RICE</p>
     </div>
   )
 }

@@ -8,7 +8,7 @@ export default function ProductCard() {
       <Image src="/img/pasta.png" alt="" width="200" height="200" />
       <h1 className={styles.title}>AAKHRI PASTA</h1>
       <span className={styles.price}>₹200-1200</span>
-      <p className={styles.desc}>DEMBJANI AMNANYA AMGAL BAMGAL</p>
+      <p className={styles.desc}>SATISFY YOUR ITALIAN CRAVINGS WITH US</p>
     </div>
   )
 }

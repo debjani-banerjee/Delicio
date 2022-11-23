@@ -18,39 +18,15 @@ export default function Cart() {
           <tr className={styles.tr}>
             <td>
               <div className={styles.imgContainer}>
-              <Image src="/img/pizza.png" alt="" layout="fill" objectFit="cover" />
+              <Image src="/img/pizza2.png" alt="" layout="fill" objectFit="cover" />
               </div>   
             </td>
             <td>
-              <span className={styles.name}>ABCD</span>
+              <span className={styles.name}>PEPPERONI PARTY</span>
             </td>
             <td>
               <span className={styles.extras}>
                 Double Ingredient, Spicy Sauce
-              </span>
-            </td>
-            <td>
-              <span className={styles.price}>₹119</span>
-            </td>
-            <td>
-              <span className={styles.quantity}>2</span>
-            </td>
-            <td>
-              <span className={styles.total}>₹238</span>
-            </td>
-          </tr>
-          <tr className={styles.tr}>
-            <td>
-              <div className={styles.imgContainer}>
-              <Image src="/img/pizza.png" alt="" layout="fill" objectFit="cover" />
-              </div>
-            </td>
-            <td>
-              <span className={styles.name}>WXYZ</span>
-            </td>
-            <td>
-              <span className={styles.extras}>
-                Double Ingredient, Garlic Sauce
               </span>
             </td>
             <td>
@@ -69,7 +45,7 @@ export default function Cart() {
         <div className={styles.wrapper}>
             <h2 className={styles.title}>CART TOTAL</h2>
             <div className={styles.totalText}>
-                <b className={styles.totalTextTitle}>Subtotal:</b>₹188.00
+                <b className={styles.totalTextTitle}>Subtotal:</b>₹238.00
             </div>
             <div className={styles.totalText}>
                 <b className={styles.totalTextTitle}>Discount:</b>₹50.00
