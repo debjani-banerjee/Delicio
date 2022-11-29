@@ -15,6 +15,7 @@ export default function Order() {
       <div className={styles.left}>
         <div className={styles.row}>
           <table className={styles.table}>
+            <tbody>
             <tr className={styles.trTitle}>
               <th>Order ID</th>
               <th>Customemr</th>
@@ -35,6 +36,7 @@ export default function Order() {
                 <span className={styles.total}>₹238</span>
               </td>
             </tr>
+            </tbody>
           </table>
         </div>
         <div className={styles.row}>

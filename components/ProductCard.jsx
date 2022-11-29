@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 import styles from "../styles/ProductCard.module.css";
+import Link from "next/link";
 
 export default function ProductCard() {
   return (
