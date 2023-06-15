@@ -7,8 +7,8 @@ export default function Featured() {
   const images = [
     "/img/logo1.png",
     "/img/pic.png",
-    "/img/featured3.png",
-    "/img/featured4.png",
+    "/img/daalroti.jpg",
+    "/img/featured4.jpg",
   ];
 
   const handleArrow = (direction) => {
@@ -28,12 +28,12 @@ export default function Featured() {
       <div className={styles.wrapper} style={{transform:`translateX(${-100*index}vw)`}}>
         {images.map((img, i) => (
           <div className={styles.imgContainer} key={i}>
-            <Image src={img} alt="" layout="fill" objectFit="contain"/>
+            <Image src={img} alt="" fill style={{objectFit:"contain"}}/>
           </div>
         ))}
       </div>
       <div className={styles.arrowContainer} style={{ right: 0 }} onClick={() => handleArrow("r")}>
-        <Image src="/img/slideR.png" alt="" layout="fill" objectFit="contain"/>
+        <Image src="/img/slideR.png" alt="" fill style={{objectFit:"contain"}}/>
       </div>
     </div>
   );
